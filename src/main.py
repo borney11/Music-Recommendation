@@ -9,7 +9,6 @@ st.set_page_config(
     layout="centered"
 )
 
-
 st.title("🎶 Instant Music Recommender")
 
 song_list = sorted(df['song'].dropna().unique())
